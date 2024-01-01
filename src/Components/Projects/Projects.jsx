@@ -1,7 +1,7 @@
 import React from "react";
 import "./Projects.css";
 
-import { FaPython } from "react-icons/fa";
+import { FaPython, FaRoute } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaAws } from "react-icons/fa";
@@ -10,6 +10,13 @@ import { SiKeras } from "react-icons/si";
 import { SiNumpy } from "react-icons/si";
 import { SiScikitlearn } from "react-icons/si";
 import { SiJavascript } from "react-icons/si";
+import { FaReact } from "react-icons/fa";
+import { SiAmazons3 } from "react-icons/si";
+
+
+
+
+
 
 export const Projects = () => {
   return (
@@ -102,7 +109,7 @@ export const Projects = () => {
               <h2>Fortune Teller</h2>
               <p>
               Fortune Teller is a web application that predicts the fortune, By Asking questions questions from the seeker. and replying that with
-              Yes, No, Maybe.
+              Yes, No, Maybe. It is made using HTML, CSS, JavaScript and uses aws services like Lambda and API Gateway.
               </p>
               <div>
                 <FaAws />
@@ -127,6 +134,44 @@ export const Projects = () => {
                 >
                   <span type="button" className="btn btn--outline onbt">
                     See this live
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="projects_container">
+          <div className="project">
+            <div className="project_videocontainer">
+              <div data-aos="fade-right">
+                <img
+                  src="https://github.com/thatsyuviii/My-Portfolio/blob/main/image.png?raw=true"
+                  alt="Portfolio Website"
+                />
+              </div>
+            </div>
+            <div className="project_information" data-aos="fade-right">
+              <h2>Portfolio Website</h2>
+              <p>
+              This is my Portfolio website. It contains everything that i wanted to showcase myself. It is made using React, HTML, CSS, JavaScript and hosted 
+              using aws services like S3, Cloudfront, Route53 and Certificate Manager.
+              </p>
+              <div>
+                <FaAws />
+                <SiAmazons3 />
+                <FaReact />
+                <FaHtml5 />
+                <FaCss3Alt />
+                <SiJavascript />  
+              </div>
+              <div>
+                <a
+                  href="https://github.com/thatsyuviii/My-Portfolio"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline">
+                    View Code
                   </span>
                 </a>
               </div>
