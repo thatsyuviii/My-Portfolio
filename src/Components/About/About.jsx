@@ -6,7 +6,7 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 import PhoneIcon from "@material-ui/icons/Phone";
 import PublicIcon from "@material-ui/icons/Public";
-import InstagramIcon from '@mui/icons-material/Instagram';
+import { BsInstagram } from "react-icons/bs";
 import { Introduction } from "./Introduction";
 import { Timeline } from "./Timeline";
 import { Techstacks } from "./Techstacks";
@@ -56,7 +56,7 @@ export const About = () => {
             aria-label="instagram"
             className="link link--icon"
           >
-            <InstagramIcon />
+            <BsInstagram />
           </a>
           <a
             href="https://www.linkedin.com/in/yuvrajkshetri/"

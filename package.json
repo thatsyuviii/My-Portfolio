@@ -1,4 +1,5 @@
 {
+  "homepage": ".",
   "name": "updatedportfolio",
   "version": "1.0.0",
   "description": "",
@@ -9,7 +10,6 @@
     "@emotion/styled": "^11.11.0",
     "@material-ui/core": "4.12.3",
     "@material-ui/icons": "4.11.2",
-    "@mui/icons-material": "^5.15.2",
     "@mui/material": "^5.15.2",
     "aos": "2.3.4",
     "prop-types": "15.7.2",
@@ -22,14 +22,13 @@
     "typewriter-effect": "2.18.2"
   },
   "devDependencies": {
-    "@babel/runtime": "7.13.8",
-    "typescript": "4.1.3"
+    "@babel/runtime": "7.13.8"
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
-    "test": "react-scripts --openssl-legacy-provider test --env=jsdom",
-    "eject": "react-scripts --openssl-legacy-provider eject"
+    "test": "react-scripts --openssl-legacy-providertest --env=jsdom",
+    "eject": "react-scripts --openssl-legacy-providereject"
   },
   "browserslist": [
     ">0.2%",
