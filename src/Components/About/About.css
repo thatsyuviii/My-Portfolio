@@ -2,11 +2,19 @@
   flex-direction: column;
   margin-top: 3em;
 }
+.h1e {
+  text-align: center;
+}
 .about__name {
   align-items: flex-start;
   color: var(--clr-primary);
 }
 .short-text {
+  text-align: center;
+  display: none;
+}
+.h2e {
+  text-align: center;
   display: none;
 }
 .about > :nth-child(2) {
@@ -48,7 +56,6 @@
   .about > .about__name {
     font-size: 1.53em;
   }
-
   .short-text { display: inline-block; }
   .about__name { display: none; }
 

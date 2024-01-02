@@ -133,7 +133,7 @@ export const Projects = () => {
                   rel="noreferrer"
                 >
                   <span type="button" className="btn btn--outline onbt">
-                    See this live
+                    See This Live
                   </span>
                 </a>
               </div>
