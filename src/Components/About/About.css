@@ -3,12 +3,16 @@
   margin-top: 3em;
 }
 .about__name {
+  align-items: flex-start;
   color: var(--clr-primary);
+}
+.short-text {
+  display: none;
 }
 .about > :nth-child(2) {
   margin-top: 1.2em;
   font-size: 2rem;
-  line-height: 1.2;
+  line-height: 3;
   color: var(--clr-fg-alt);
 }
 
@@ -40,4 +44,12 @@
   .about > :nth-child(2) {
     font-size: 1.5rem;
   }
+
+  .about > .about__name {
+    font-size: 1.53em;
+  }
+
+  .short-text { display: inline-block; }
+  .about__name { display: none; }
+
 }

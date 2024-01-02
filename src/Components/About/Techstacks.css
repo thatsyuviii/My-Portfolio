@@ -40,7 +40,6 @@
   font-size: 8vh;
   color: var(--clr-primary);
 }
-
 .techsection > div > h5 {
   position: relative;
   top: 8px;
@@ -48,7 +47,7 @@
 
 @media (max-width: 600px) {
   .techsection {
-    height: 120vh;
+    height: 190vh;
   }
   .techsection > div {
     width: 40%;

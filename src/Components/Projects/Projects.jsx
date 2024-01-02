@@ -73,7 +73,7 @@ export const Projects = () => {
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
-              <h2>Weather Forecasting</h2>
+              <h2> Weather Forecasting app </h2>
               <p>
                 Created Weather forecasting application using tkinter. Used API to know the exact time of a given location. Used libraries like timezonefinder and geopy to find the
                 timezone, latitute and longitude.
